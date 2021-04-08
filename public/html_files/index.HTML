@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device.width, initial-scale=1.0">
+        <!--<meta http-equiv="Content-Security-Policy" content="defalut-src 'self'; script-src 'self'">
+        <meta http-equiv="X-Content-Security-Policy" content="defalut-src 'self'; script-src 'self'">
+        <meta http-equiv="X-WebKit-CSP" content="defalut-src 'self'; script-src 'self'">-->
+        
+        <title>Index Page of Node.js</title>
+
+        <link rel="stylesheet" href="stylesheets/index_stylesheet.css" type="text/css">
+
+        <script src="main.js"></script>
+
+        <!-- p5 library-->
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-style">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbardrop" href="#" data-toggle="dropdown">Edit</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Download CNN Configuration</a>
+                    <a class="dropdown-item" href="#">Upload CNN Configuration</a>
+                    <a class="dropdown-item" href="#"> Initialize new Configuration</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#"> Home </a>
+              </li>
+            </ul>
+          </nav>
+       <br class=space>
+
+       <div class="container-fluid">
+
+        <h1 class="pageHeader">Convolutional Neuronal Network</h1>
+
+        <br class="space">
+        
+       <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8" id="canvasContainer"> </div>
+        <div class="col-sm-2"></div>
+       </div>
+
+       <br class="space">
+    
+       <div class="container">
+           <div class="row">
+            <div style="height:10%" class="col-sm-12"></div>
+           </div>
+        <div class="row">
+            <div class="col-sm-3"> </div> 
+            <div class="col-sm-6">
+                    <table class="neuronTable">
+                        <tr>
+                            <th> Neuron Index</th>
+                            <th> Weight </th>
+                            <th> Neuron convolutional Filter</th>
+                        </tr>
+                        <tr>
+                            <td>Neuron 01</td>
+                            <td> 1 </td>
+                            <td> 01.0.20.32</td>
+                        </tr>
+                    </table>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+       </div>
+    </div>
+
+    <br class="space">
+
+       <footer class="row">
+           <div class="col-sm-4">
+                <p> Author: Pascal Moll</p>
+           </div>
+           <div class="col-sm-4"></div>
+           <div class="col-sm-4">
+            <address style="text-align: right;">pasci.moll@bluewin.ch</address>
+           </div>
+       </footer>
+    </body>
+</html>
